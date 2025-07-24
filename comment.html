@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sharhlar bo‘limi</title>
+  <link rel="stylesheet" href="Css/comment.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Top 3 Eng yaxshi sharhlar</h1>
+    <div id="top-comments"></div>
+  </header>
+
+  <section class="comment-box">
+    <h2>Sharhingizni yozing</h2>
+    <input type="text" id="userName" placeholder="Ismingiz (ixtiyoriy)" />
+    <textarea id="commentText" placeholder="Sharhingizni yozing..."></textarea>
+    
+    <div class="rating">
+      <span class="star" data-value="1">★</span>
+      <span class="star" data-value="2">★</span>
+      <span class="star" data-value="3">★</span>
+      <span class="star" data-value="4">★</span>
+      <span class="star" data-value="5">★</span>
+    </div>
+    
+    <button id="submitComment">💬 Sharh yuborish</button>
+  </section>
+
+  <section class="comment-list">
+    <h2>Barcha sharhlar</h2>
+    <div id="commentsContainer"></div>
+  </section>
+
+  <script src="Js/comment.js"></script>
+</body>
+</html>
